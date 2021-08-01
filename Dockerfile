@@ -3,6 +3,8 @@ FROM alpine:3.5
 
 #install python and pip to base image
 RUN apk add --update py2-pip
+#for debug and tree
+# RUN pip install tree
 
 #upgrade pip
 RUN pip install --upgrade pip
