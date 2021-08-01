@@ -5,7 +5,7 @@ FROM alpine:3.5
 RUN apk add --update py2-pip
 
 #upgrade pip
-RUN pip install -- upgrade pip
+RUN pip install --upgrade pip
 
 #install Python modules for The Python App
 COPY requirements.txt /usr/src/app/
