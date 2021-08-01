@@ -19,6 +19,7 @@ COPY . /usr/src/app/
 
 
 #copy files for The Python App to run
+#copy each file from app folder
 # COPY app.py /usr/src/app/
 
 # COPY templates/index.html /usr/src/app/templates/
