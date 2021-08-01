@@ -14,7 +14,7 @@ COPY requirements.txt /usr/src/app/
 RUN pip install --no-cache-dir -r /usr/src/app/requirements.txt
 
 #copy all files for The Python App to run
-
+# . - all files from app folder
 COPY . /usr/src/app/
 
 
