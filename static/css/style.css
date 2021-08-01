@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,700&display=swap");
+html, body {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: "Raleway", sans-serif; }
+  html h2, body h2 {
+    font-size: 4rem;
+    margin: 0;
+    padding: 0; }
+  html h4, body h4 {
+    font-size: 2rem;
+    margin: 2rem;
+    padding: 0; }
+  html button, body button, .about-link {
+    width: 20rem;
+    height: 5rem;
+    text-transform: uppercase;
+    background-color: #67B33C;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    letter-spacing: 1px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s; }
+    html button:hover, body button:hover {
+      -webkit-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+      border-bottom: 0.5rem solid #fff; }
+
+.main-window {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.left-side {
+  width: 60rem;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  background-position: center;
+  color: #fff; }
+
+.black-filter {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 1, 0.6);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.content-left-side {
+  position: relative;
+  text-align: center; }
+
+.right-side {
+  width: 70%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .right-side form {
+    width: 27vw;
+    height: 80vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 1.5rem; }
+    .right-side form h2 {
+      margin-bottom: 4rem;
+      text-align: center;
+      color: #67B33C; }
+    .right-side form input {
+      height: 3rem;
+      border: none;
+      border-bottom: 1px solid #DEDFE3;
+      font-size: 1.8rem; }
+    .right-side form label {
+      margin-bottom: 0.5rem;
+      font-size: 1.3rem;
+      color: #282C34; }
+
+.textfield {
+  margin-bottom: 4rem; }
+
+.wrap-logo {
+  width: 50vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.logo-link {
+  width: 20rem;
+  height: 3rem;
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #32363D; }
+
+.options {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 4rem;
+  margin-bottom: 3rem; }
+  .options p {
+    margin: 0;
+    padding: 0; }
+  .options input {
+    margin: 0;
+    padding: 0; }
+  .options a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #282C34; }
+
+.check-box {
+  border: 1px solid red;
+  cursor: pointer; }
+
+.wrap-check-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .wrap-check-box label {
+    font-size: 2rem;
+    margin-left: 0.5rem; }
+
+.wrap-contacts {
+  width: 50vw;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.5rem; }
+  .wrap-contacts a {
+    text-decoration: none;
+    color: #282C34; }
+
+.overlay {
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  opacity: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  color: #ffffff; }
+  .overlay p {
+    font-size: 1.5rem;
+    text-align: center; }
+  .overlay a {
+    color: #fff; }
+
+.overlay-active {
+  -webkit-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  opacity: 1;
+  z-index: 100; }
+
+.content-about {
+    margin: 0 0 30px 0;
+    font-size: 17px;
+    letter-spacing: 1px;
+
+}
+
+.about-link {
+    text-align: center;
+    text-decoration: none;
+    line-height: 3.5;
+    
+}
+/*# sourceMappingURL=style.css.map */

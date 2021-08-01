@@ -1,0 +1,57 @@
+{% extends 'layout.html' %}
+
+{% block content %}
+  <body>
+		<div class="overlay ">
+			<h2>This is only demonstration page</h2>
+			<h4>Only basic UI functionality is active</h4>
+			<p>for more information, send message to <a href="mailto:extsand@gmail.com">extsand@gmail.com</a>, <br>
+			or telegram @extsand</p>
+		</div>
+		<section class="main-window">
+			<div class="left-side">
+				<div class="black-filter"></div>
+				<div class="content-left-side">
+					<h2>Try it For Free Today</h2>
+					<h4>No Credit cart. 30 day for free</h4>
+					<button>Create account</button>
+				</div>
+				
+			</div>
+			<div class="right-side">
+				<div class="wrap-logo">
+					<a href="/about" class="logo-link">{{ title }}</a>
+				</div>
+				
+				<form action="">
+					<h2>Welcome Back</h2>
+					<label for="email">Enter Email</label>
+					<input type="text" class="textfield" name="email" id="email" placeholder="info@gmail.com">
+					
+					<label for="password">Password</label>
+					<input type="password" class="textfield" name="password" id="password" placeholder="">
+
+					<div class="options">
+						<div class="wrap-check-box">
+							<input type="checkbox" name="SignedIn" id="SighedIn" class="check-box">
+							<label for="SignedIn">Remember me</label>
+						</div>
+						
+						<a href="#">Forgot Password?</a>
+					</div>
+					<button>Sign in</button>					
+				</form>
+				<div class="wrap-contacts">
+					<a href="#">More information</a>
+					<a href="#">We in social networks</a>
+				</div>
+				
+			</div>
+
+		</section>
+        <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+        {% endblock content %}
+
+
+	
+
