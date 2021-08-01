@@ -20,7 +20,7 @@ COPY templates/layout.html /usr/src/app/templates/
 
 COPY static/css/style.css /usr/src/app/static/css/style.css
 COPY static/css/style.css.map /usr/src/app/static/css/style.css.map
-COPY static/css/img/bg.ipg /usr/src/app/static/css/img/bg.jpg
+COPY static/css/img/bg.jpg /usr/src/app/static/css/img/bg.jpg
 
 COPY static/js/script.js /usr/src/app/static/js/script.js
 
